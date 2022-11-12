@@ -1,0 +1,137 @@
+/* IMPORTACION DE FUENTE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+/* DECLARACION DE COLORES */
+:root {
+	--color1: #172048;
+	--color2: linear-gradient(97.65deg, #56E0E0 0.33%, #007299 93.35%);
+	--color3: #FFFFFF;
+	--color4: #025F7D;
+	--color5: #C4C4C4;
+	--header: #F4FEFF;
+	/* --color2: #007299; */
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Poppins, "sans-serif";
+}
+
+body {
+	background: url('../Login/Clinica.jpg') no-repeat center bottom;
+	background-size: cover;
+	height: 100vh;
+}
+
+/* ENCABEZADO */
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15vh;
+}
+
+.logo a{
+	text-decoration: none;
+	color: var(--color1);
+}
+
+/* CONTENIDO */
+main {
+	display: flex;
+	height: 75vh;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 2vh;
+}
+
+/* FORMULARIO DE INCIO DE SESION */
+.contenedor {
+	display: flex;
+	flex-direction: column;
+}
+
+.formulario {
+	border: 2px solid var(--color1);
+	width: 400px;
+	height: 400px;
+	background: var(--header);
+	color: var(--color1);
+	font-size: 1.2rem;
+	font-weight: bold;
+	box-shadow: 0px 10px 10px rgba(1, 115, 153, 0.2);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 20px 0 20px;
+}
+
+.formulario h2 {
+	text-align: center;
+	font-size: 2rem;
+	background: var(--color2);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.caja {
+	margin: 0.4rem 0 1.8rem 0;
+	padding: 10px 0 10px 10px;
+	font-size: 0.8rem;
+	background: var(--color5);
+	border: 2px solid var(--color1);
+	font-weight: bold;
+}
+
+.boton {
+	background: var(--color2);
+	font-size: 1rem;
+	color: var(--color3);
+	font-weight: bold;
+	margin-top: 10px;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0px 5.12675px 7.69013px rgba(1, 115, 153, 0.2);
+}
+
+.boton:hover {
+	cursor: pointer;
+	background: var(--color1);
+	transition: all 1s;
+}
+
+/* PIE DE PAGINA */
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--color1);
+	font-size: 0.8rem;
+	padding-top: 1.2rem;
+}
+
+/* .logos {
+	width: 15%;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 10px;
+}
+
+.logos img {
+	width: 30px;
+}
+
+.logos img:hover {
+	width: 40px;
+	transition: all 0.5s;
+} */
