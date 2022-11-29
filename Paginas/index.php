@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CLINICA</title>
-	<link rel="stylesheet" href="../CSS/estilos.css">
-</head>
-<body>
-	<!-- ENCABEZADO -->
-	<header>
-		<!-- LOGO -->
-		<div class="logo">
-			<h1>LOGO</h1>
-		</div>
-		<!-- MENU -->
-		<nav class="menu">
-			<li><a id="inicio" href="index.html">Inicio</a></li>
-			<li><a href="#">Farmacia</a></li>
-			<li><a href="servicios.html">Servicios</a></li>
-			<li><a href="#">Citas</a></li>
-		</nav>
-		<!-- BOTON INICIO DE SESION -->
-		<div class="sesion">
-			<button class="boton"><a href="login.php">Iniciar Sesion</a></button>
-		</div>
-	</header>
+<?php
+	include('Includes/header.php');
+?>
 	<!-- PRIMER CONTENIDO -->
 	<main>
 		<!-- TEXTO IZQUIERDO -->
@@ -44,9 +20,9 @@
 		<div class="imagen">
 			<!-- <div class="elemento2">
 				<ul>
-					<li><img src="Principal/img1.jpg" alt=""></li>
-					<li><img src="Principal/img2.jpg" alt=""></li>
-					<li><img src="Principal/img3.jpg" alt=""></li>
+					<li><img src="../Imagenes/Index/img1.jpg" alt=""></li>
+					<li><img src="../Imagenes/Index/img2.jpg" alt=""></li>
+					<li><img src="../Imagenes/Index/img3.jpg" alt=""></li>
 				</ul>
 			</div> -->
 			<div class="elemento"></div>
@@ -67,7 +43,7 @@
 				<a href="#">
 					<section class="impar">
 						<article>
-							<img src="../Imagenes/Servicio 1.svg" alt="Servicio 1">
+							<img src="../Imagenes/Index/Servicio 1.svg" alt="Servicio 1">
 						</article>
 						<h3>Conoce a nuestros Doctores</h3>
 						<p>Conoce al personal de salud que trabaja en nuestras instalaciones.</p>
@@ -78,7 +54,7 @@
 				<a href="#">
 					<section class="par">
 						<article>
-							<img src="../Imagenes/Servicio 2.svg" alt="Servicio 2">
+							<img src="../Imagenes/Index/Servicio 2.svg" alt="Servicio 2">
 						</article>
 						<h3>Farmacia</h3>
 						<p>Visualiza nuestros precios y existencias.</p>
@@ -88,7 +64,7 @@
 				<a href="#">
 					<section class="impar">
 						<article">
-							<img src="../Imagenes/Servicio 3.svg" alt="Servicio 3">
+							<img src="../Imagenes/Index/Servicio 3.svg" alt="Servicio 3">
 						</article>
 						<h3>Saca tu Cita</h3>
 						<p>Programa tu cita en nuestras intalaciones desde la comodidad de tu hogar.</p>
@@ -97,15 +73,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- PIE DE PAGINA -->
-	<footer>
-		<nav class="logos">
-			<a href="#"><img src="../Imagenes/logo_facebook.svg" alt="F"></a>
-			<a href="#"><img src="../Imagenes/logo_instagram.svg" alt="I"></a>
-			<a href="#"><img src="../Imagenes/logo_whats.svg" alt="W"></a>
-		</nav>	
-		<p>&copy; Todos los derechos reservados 2022.</p>
-	</footer>
-</body>
-<script src="../JS/codigo.js"></script>
-</html>
+
+<?php
+	include("Includes/pie.php");
+?>

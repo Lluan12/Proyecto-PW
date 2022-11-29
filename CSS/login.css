@@ -20,7 +20,7 @@
 }
 
 body {
-	background: url('../Login/Clinica.jpg') no-repeat center bottom;
+	background: url('../Imagenes/Login/Clinica.jpg') no-repeat center bottom;
 	background-size: cover;
 	height: 100vh;
 }
