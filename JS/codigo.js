@@ -2,9 +2,9 @@
      * Array con las imagenes y enlaces que se iran mostrando en la web
      */
  var imagenes=new Array(
-	['Principal/img1.jpg'],
-	['Principal/img2.jpg'],
-	['Principal/img3.jpg']
+	['../Imagenes/img1.jpg'],
+	['../Imagenes/img2.jpg'],
+	['../Imagenes/img3.jpg']
 );
 var contador=0;
 

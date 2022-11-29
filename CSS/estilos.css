@@ -212,7 +212,6 @@ main {
 	align-items: center;
 }
 
-
 .servicios {
 	display: flex;
 	flex-direction: column;
@@ -223,7 +222,7 @@ main {
 }
 
 .servicios h2 {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 }
 
 /* DIV DONDE ESTAN LOS SERVICIOS */
@@ -233,6 +232,7 @@ main {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	padding-bottom: 1rem;
 }
 
 .cont_ser a {
@@ -298,7 +298,6 @@ footer {
 	justify-content: flex-end;
 	align-items: center;
 	color: var(--color1);
-
 	font-size: 0.8rem;
 }
 
